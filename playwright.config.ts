@@ -30,3 +30,6 @@ const config: PlaywrightTestConfig = {
 export default config
 
 //npx playwright test --config=playwright.config.ts --project=Webkit
+//npx playwright test --config=playwright.config.ts --project=Chromium --reporter=list
+//npx playwright test --config=playwright.config.ts --project=Chromium --reporter=junit
+//npx playwright test --config=playwright.config.ts --project=Chromium --reporter=html (report will be showed in separate folder)
