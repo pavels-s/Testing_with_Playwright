@@ -20,8 +20,8 @@ test('Clicking on Elements', async ({page}) => {
     await expect(errorMessage).toContainText('Login and/or password are wrong.')
 })
 
-//JUST EXAMPLES OF SELECTORS
-test('Selectors', async ({page}) => {
+//JUST EXAMPLES OF SELECTORS - skipping it (.skip)
+test.skip('Selectors', async ({page}) => {
     //text
     await page.click('text=some text')
 
